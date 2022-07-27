@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Canvas Assessment</title>
+    </head>
+    <body>
+        <canvas id="CanvasId" width="600" height="300"  style="border:5px solid blue; background:red">
+           Canvas is not supported by browser.
+        </canvas>
+
+        <script>
+            var canvasvar= document.getElementById("CanvasId");
+            var contextvar= canvasvar.getContext("2d");
+            contextvar.fillStyle="#00FF00";
+            contextvar.fillRect(200,100,200,100);
+
+        </script>
+    </body>
+</html>
