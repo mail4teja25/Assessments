@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Overflow Initial,Inherit and Auto </title>
+        <style>
+            div.Scrollbar{
+                background-color: aquamarine;
+                overflow: scroll;
+            }
+            span{
+                color: brown;
+            }
+            h1{
+                color:initial
+            }
+            div.Initial{
+                color:crimson
+            }
+            .inherits span{
+                color:inherit
+            }
+            div.Autoclass{
+                color:auto;
+            }
+        </style>
+    </head>
+    <body>
+        <p> Page displays Overflow Initial,Inherit and Auto<span>Inherits</span></p>
+        <div class="Scrollbar">
+            <h1>Scrollbar</h1>
+            This division is to display scrollbar.
+        </div>
+        <div class="inherits" style="color:blue">
+            <h1>Inherits</h1>
+            To check the Inherit Property.<span> Inherits</span>
+        </div>
+        <div class="Initial">
+            <h1>Initial</h1>
+            To check the Inherit Property.<span> Inherits</span>
+        </div>
+        <div class="Autoclass">
+            <h1>Auto</h1>
+            <span>span</span>
+            To check the Inherit Property.<span> Inherits</span>
+        </div>
+    </body>
+</html>
